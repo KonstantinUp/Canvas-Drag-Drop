@@ -1,6 +1,6 @@
-var Polygon = require('./polygon');
-var inPolygon = require('./inPolygon');
-var intersect = require('./intersection');
+var Polygon = require('./modules/polygonCreator');
+var inPolygon = require('./modules/isCursorInPolygon');
+var intersect = require('./modules/intersection');
 
     var mouse = {
         x:0,
